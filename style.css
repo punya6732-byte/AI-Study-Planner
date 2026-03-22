@@ -1,0 +1,10 @@
+body{ font-family:arial; text-align:center;background-color:black:}
+
+h1{
+    color:aliceblue;
+
+}
+input,button{
+    padding:10px;
+    margin:10px;
+}
