@@ -16,4 +16,5 @@ document.grtElementById("output").innerhtml=plan;
 }
 function translateToKorean(){
     document.querySelector("h1").innerText="AI 학습 계획기"
+    alert("Clicked!");
 }
