@@ -1,10 +1,24 @@
-body{ font-family:arial; text-align:center;background-color:black:}
+body{ font-family:arial; text-align:center;background-color:linear-gradient(to right,#4facfe,#00f2fe); color:white;}
 
 h1{
-    color:aliceblue;
+    margin-top:50px;
 
 }
 input,button{
-    padding:10px;
+    padding:12px;
     margin:10px;
+    border-radius:8px;
+    border:none;
+}
+botton{
+    background-color:#333;
+    color:white;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#555;
+}
+#output{
+    margin-top:20px;
+    font-size:18px;
 }
