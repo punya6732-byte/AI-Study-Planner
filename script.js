@@ -12,10 +12,10 @@ let plan=" You have" + daysLeft + "days left.<br>";
 for(let i=1;i<=daysLeft;i++){
     plan +="Day"+i+":Study"+subject+"<br>";
 }
-document.grtElementById("output").innerhtml=plan;
+document.getElementById("output").innerhtml=plan;
 }
 function translateToKorean(){
    
-    document.querySelector("h1").innerText="AI 학습 계획기";
+    document.getElementById("title").innerText="AI 학습 계획기";
 }
 // update
