@@ -18,3 +18,4 @@ function translateToKorean(){
    
     document.querySelector("h1").innerText="AI 학습 계획기";
 }
+// update
